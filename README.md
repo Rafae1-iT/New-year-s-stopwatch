@@ -1,2 +1,1 @@
-# New-year-s-stopwatch
-stopwatch+countdown to the new year
+# https://rafae1-it.github.io/New-year-s-stopwatch/
