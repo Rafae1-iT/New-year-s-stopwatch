@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
+    <title>STOPWATCH</title>
+</head>
+<body>
+
+    <div class="navigation">
+        <button class="stopwatch">STOPWATCH</button>
+        <button class="new__year">NEW YEAR</button>
+    </div>
+
+    <div class="container">
+        <div class="timer">
+            <div class="timer__block">
+                <div class="time hour">00</div>
+            </div>
+
+            <div class="timer__block">
+                <div class="time minute">00</div>
+            </div>
+
+            <div class="timer__block">
+                <div class="time second">00</div>
+            </div>
+
+            <div class="timer__block">
+                <div class="time millisecond">00</div>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <div class="btn"><button class="button start">START</button></div>
+            <div class="btn"><button class="button pause">PAUSE</button></div>
+            <div class="btn"><button class="button circle">CIRCLE</button></div>
+            <div class="btn"><button class="button update">RESET</button></div>
+        </div>
+
+        <div class="results__block">
+            <div class="results__title">RESULTS:</div>
+            <div class="results"></div>
+        </div>
+    </div>
+
+    <div class="timeToNewYear">
+        <div class="year__text">UNTIL THE NEW YEAR IS LEFT</div>
+        <div class="time_ne">
+            <div class="timer_year">
+                <div class="d">00</div>
+                <div class="t__title">Days</div>
+            </div>
+            <div class="timer_year">
+                <div class="h">00</div>
+                <div class="t__title">Hours</div>
+            </div>
+            <div class="timer_year">
+                <div class="m">00</div>
+                <div class="t__title">Minutes</div>
+            </div>
+            <div class="timer_year">
+                <div class="s">00</div>
+                <div class="t__title">Seconds</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="snowflakeContainer">
+        <span class="snowflake"></span>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/year.js"></script>
+    <script src="js/snow.js"></script>
+</body>
+</html>
