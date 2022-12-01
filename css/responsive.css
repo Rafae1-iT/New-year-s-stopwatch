@@ -29,6 +29,37 @@
         width: 65%;
     }
 }
+@media (max-width: 600px) {
+    .stopwatch {
+        font-size: 3.7vw;
+    }
+    .new__year {
+        font-size: 3.7vw;
+    }
+    .navigation {
+        width: 60%;
+        margin-left: 20%;
+    }
+    .timer {
+        font-size: 11vw;
+    }
+    .button {
+        font-size: 3vw;
+    }
+    .results__title {
+        font-size: 3vw;
+    }
+    .year__text {
+        font-size: 4vw;
+    }
+    .timeToNewYear {
+        font-size: 11vw;
+    }
+    .t__title {
+        font-size: 2.4vw;
+    }
+
+}
 @media (max-width: 450px) {
     .buttons {
         display: block;
@@ -41,29 +72,66 @@
         margin-top: 10px;
     }
     .button {
-        font-size: 3vw;
+        font-size: 4vw;
+        margin-top: 10px;
         width: 100%;
+    }
+    .buttons {
+        width: 40%;
     }
     .navigation {
         width: 60%;
         margin-left: 20%;
     }
     .stopwatch {
-        font-size: 4vw;
+        font-size: 5vw;
     }
     .new__year {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
     .results__title {
         font-size: 4vw;
     }
     .results__info {
+        font-size: 4vw;
+    }
+    .timer {
+        font-size: 12vw;
+    }
+    .navigation {
+        width: 75%;
+        margin-left: 12.5%;
+    }
+    .timeToNewYear {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .timeToNewYear {
+        font-size: 13vw;
+    }
+    .year__text {
+        font-size: 5vw;
+    }
+    .t__title {
         font-size: 3vw;
     }
 }
 @media (max-width: 350px) {
-    .results__info {
-        font-size: 4vw;
+    .timer {
+        font-size: 13vw;
+    }
+    .buttons {
+        width: 50%;
+    }
+    .button {
+        font-size: 5vw;
+    }
+    .year__text {
+        font-size: 6vw;
+    }
+    .timeToNewYear {
+        width: 90%;
+        margin-left: 5%;
     }
 }
