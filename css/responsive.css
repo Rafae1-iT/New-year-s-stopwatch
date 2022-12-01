@@ -116,6 +116,9 @@
     .t__title {
         font-size: 3vw;
     }
+    .timer {
+        width: 73%;
+    }
 }
 @media (max-width: 350px) {
     .timer {
