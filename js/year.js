@@ -1,5 +1,5 @@
 // Variables
-let date = new Date('Jan 1 2025 00:00:00');
+let date = new Date('Jan 1 2026 00:00:00');
 const dElemment = document.querySelector('.d');
 const hElemment = document.querySelector('.h');
 const mElemment = document.querySelector('.m');
